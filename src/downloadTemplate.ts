@@ -9,7 +9,7 @@ const downloadTemplate = (templateGitUrl: string, downloadPath: string) => {
     try {
       loading.start("start download template");
       await gitclone(templateGitUrl, downloadPath, {
-        checkout: "master",
+        checkout: "main",
         shallow: true,
       });
       loading.stop();

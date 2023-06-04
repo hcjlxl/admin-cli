@@ -29,7 +29,7 @@ const initProject = async (name: string) => {
 const continueGenerate = async (name: string) => {
   const options = await inquirer.prompt(ProjectPrompts);
   await downloadTemplate(
-    "https://github.com/xxxxx.git",
+    "https://github.com/hcjlxl/react-admin.git",
     `./${name}`
   );
 
