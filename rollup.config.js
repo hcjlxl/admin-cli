@@ -6,6 +6,7 @@ import json from "@rollup/plugin-json";
 export default {
   input: "./src/index.ts",
   output: {
+    banner: "#!/usr/bin/env node",
     dir: "lib",
     format: "es",
   },
