@@ -5,15 +5,10 @@
 
 ##### 安装依赖
 ```$
-yarn install
-```
-
-##### 打包
-```$
-yarn run build
+npm install @hcj_lxl/admin-cli -g
 ```
 
 ##### 生成项目
 ```$
-node lib/index.js init <项目名>
+admin-cli init <项目名>
 ```
