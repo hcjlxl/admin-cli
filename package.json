@@ -1,19 +1,19 @@
 {
   "name": "@hcj_lxl/admin-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/hcjlxl/admin-cli.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
